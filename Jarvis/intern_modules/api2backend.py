@@ -4,7 +4,7 @@ import cv2
 
 def upload_pic(person, prob, frame):
     # default API to local backend
-    API="https://backend-jarvis-render.onrender.com/api/pic"
+    API="http://localhost:8000/api/pic"
     
     # codiert den Tensor in NumPy-Array mit JPEG-kodierten Daten
     success, encoded_image = cv2.imencode(".jpg", frame)
