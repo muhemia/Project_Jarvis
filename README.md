@@ -6,6 +6,7 @@ The application combines computer vision, deep-learning-based face embeddings, e
 
 ## Demo
 
+https://github.com/user-attachments/assets/3749f04b-a7f5-4c41-b09a-f7a5e0e91f46
 <!-- Add a short demo video or GIF here -->
 
 ## How It Works
