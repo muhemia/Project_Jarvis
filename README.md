@@ -4,7 +4,7 @@ Jarvis is a real-time smart camera system that identifies known persons and auto
 
 The application combines computer vision, deep-learning-based face embeddings, event detection, a Python desktop interface, and a cloud-hosted Node.js backend.
 
-## Demo
+## Demo - showing my wonderful acting skills :)
 
 https://github.com/user-attachments/assets/3749f04b-a7f5-4c41-b09a-f7a5e0e91f46
 <!-- Add a short demo video or GIF here -->
