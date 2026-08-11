@@ -1,6 +1,8 @@
-jarvis_
 .DS_Store
 .venv
 learnings.txt
 Jarvis/face_db.pt
 Jarvis/intern_modules/Pics
+Jarvis/intern_modules/api2backend.py
+Jarvis/__pycache__/
+Jarvis/intern_modules/__pycache__/

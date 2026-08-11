@@ -53,19 +53,23 @@ class SmartCamApp(ctk.CTk):
     # gibt true zurück, wenn start gedrückt wird
     def on_start_camera_click(self):
         self.result = True 
-        self.destroy()
+        print("Kamera wurde gestartet!")
+        self.withdraw()
+        self.quit()
 
     # gibt false zurück, wenn close gedrückt wird
     def close_window(self):
         self.result = False
-        self.destroy()
+        print("System wurde erfolgreich beendet! Bis zum nächsten mal!")
+        self.quit()
 
 
-def main():
+def frontend():
     app = SmartCamApp()
+    app.deiconify()   # verstecktes Fenster wieder anzeigen
     app.mainloop()
     return app.result
 
 
 if __name__ == "__main__":
-    main()
+    frontend()
